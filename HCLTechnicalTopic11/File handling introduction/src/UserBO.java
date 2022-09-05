@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.*;
+
+public class UserBO{
+    List<User> list=new ArrayList<User>();
+    User user;
+    public List<User>readFromFile(BufferedReader br) throws IOException
+    {
+        //Fill your code here
+    	try {
+    		 String line;
+    		 while ((line = br.readLine()) != null) {
+	    		 String[] tokens = line.split(",");
+	    		 user = new User();
+	    		 user.setName(tokens[0]);
+	    		 user.setEmail(tokens[1]);
+	    		 user.setUsername(tokens[2]);
+	    		 user.setPassword(tokens[3]);
+	    		 list.add(user);
+    		 }
+    		 	br.close();
+    		 } catch (IOException ex) {
+    			 ex.printStackTrace();
+    		 }
+        return list;
+    }
+    public void display(List<User> list)
+    {
+        //Fill your code here
+    	for (User user : list) {
+    		 System.out.printf("%-15s %-20s %-15s %s\n", user.getName(), user.getEmail(), user.getUsername(), user.getPassword());
+    	}
+
+    }
+}

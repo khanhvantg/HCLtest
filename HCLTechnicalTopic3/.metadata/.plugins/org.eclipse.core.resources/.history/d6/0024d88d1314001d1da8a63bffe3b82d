@@ -1,0 +1,34 @@
+import java.io.*;
+import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args) throws Exception, IOException {
+			
+
+		//Fill your code		
+		int a, b, newDimension;
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the length of the rectangle");
+		a=s.nextInt();
+		System.out.println("Enter the width of the rectangle");
+		b=s.nextInt();
+		
+		Rectangle rectangle = new Rectangle(a,b);
+		rectangle.display();
+		System.out.println("Area of the Rectangle:"+rectangle.area());
+		
+		System.out.println("Enter the new dimension");
+		newDimension=s.nextInt();
+		
+		rectangle.dimensionChange(newDimension);
+		
+		rectangle instanceof Rectangle;
+		
+		rectangle.display();
+		System.out.println("Area of the Rectangle:"+rectangle.area());
+	}
+}
+
+
+

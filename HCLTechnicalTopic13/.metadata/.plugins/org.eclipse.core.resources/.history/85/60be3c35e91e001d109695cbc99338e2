@@ -1,0 +1,12 @@
+import java.sql.Connection;
+import java.sql.SQLException;
+
+public class UserDAO {
+	public User getUser(String username) throws ClassNotFoundException, SQLException {
+		User user = null;
+		//write your code here
+		Connection con = DBConnection.getConnection();
+		Statement stmt= con.createStatement();
+		return user;
+	}
+}

@@ -1,0 +1,11 @@
+class SavingsAccount implements MaintenanceCharge  {
+
+	@Override
+	public Float calculateMaintancecharge(Float noOfYears) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	//fill the code
+}
+
+

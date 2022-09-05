@@ -1,0 +1,4 @@
+//create interface
+interface Display{
+	abstract 
+}

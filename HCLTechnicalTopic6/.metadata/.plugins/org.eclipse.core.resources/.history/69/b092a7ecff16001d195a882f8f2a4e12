@@ -1,0 +1,9 @@
+public class CurrentAccount implements MaintenanceCharge  {
+	//fill the code
+	@Override
+	public float calculateMaintanceCharge(float noOfYears) {
+        
+    }
+}
+
+

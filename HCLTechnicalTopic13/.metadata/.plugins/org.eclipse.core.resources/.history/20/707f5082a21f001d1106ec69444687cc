@@ -1,0 +1,19 @@
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+public class HallDAO {
+	public void saveHall(Hall hall) {
+		//write your code here
+		
+	}
+	
+	public List<Hall> getAllHall() throws ClassNotFoundException, SQLException {
+		List<Hall> hallList = new ArrayList<Hall>();
+        //write your code here
+		Connection con =  DBConnection.getConnection();
+		String query = "select * from table hall";
+		PrepareStatement
+        return hallList;
+	}
+}

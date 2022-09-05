@@ -1,0 +1,19 @@
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+public class UserDAO {
+	public List<User> getAllUsers() throws Exception{
+		List<User> userList = new ArrayList<User>();
+		//your code goes here...
+		
+		Connection con = DBConnection.getConnection();
+		Statement state = con.createStatement();
+		
+		String responseFromDB="select * from user";
+		
+		return userList;
+	}
+}

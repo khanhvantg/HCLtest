@@ -1,0 +1,9 @@
+public class CurrentAccount implements MaintenanceCharge  {
+
+	@Override
+	public Float calculateMaintanceCharge(Float noOfYears) {
+		// TODO Auto-generated method stub
+		return m*noOfYears+200;
+	}
+	//fill the code
+}

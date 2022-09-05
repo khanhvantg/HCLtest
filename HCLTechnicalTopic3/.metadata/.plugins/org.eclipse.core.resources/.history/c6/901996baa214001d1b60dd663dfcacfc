@@ -1,0 +1,16 @@
+class A {
+    A(Integer a){}
+
+    A(){}
+}
+
+public class B extends A {
+    B(){}
+    B(Integer a) {
+      super(a);
+   }
+   void test(){
+      // insert code here
+	   A a=new B(5);
+   }
+ }

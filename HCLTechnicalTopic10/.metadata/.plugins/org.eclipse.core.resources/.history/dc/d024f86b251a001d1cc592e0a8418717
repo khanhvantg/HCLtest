@@ -1,0 +1,6 @@
+public class Address{
+	//fill your code here
+	private String username, addressLine1, addressLine2, pinCode;
+	
+	
+}

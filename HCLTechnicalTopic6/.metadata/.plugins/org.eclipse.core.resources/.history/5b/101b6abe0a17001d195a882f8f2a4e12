@@ -1,0 +1,15 @@
+public class Shape {
+
+        //fill your code here
+	private Double valu1, valu2;
+	
+	
+	public static class Rectangle {
+	    //fill your code here
+		public Double computeRectangleArea()
+	}
+	
+	public static class Triangle {
+	    //fill your code here
+	}	
+}

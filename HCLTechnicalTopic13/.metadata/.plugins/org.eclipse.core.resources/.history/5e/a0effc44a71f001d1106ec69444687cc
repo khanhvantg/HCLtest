@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String args[]) throws Exception {
+		//write your code here
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the details of hall in csv format:");
+		String str1 = sc.nextLine();
+		System.out.println("Enter the username:");
+		String str2 = sc.nextLine();
+		boolean check;
+		UserDAO ud = new UserDAO();
+		User user = null;
+		while(check) {
+			
+			user = ud.getUser(str2);
+		
+		}
+		System.out.println("Enter the username:");
+		String str2 = sc.nextLine();
+		
+	}
+}

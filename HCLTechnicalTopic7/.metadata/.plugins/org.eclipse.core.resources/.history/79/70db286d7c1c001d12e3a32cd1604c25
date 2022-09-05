@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+public class HallBookingBO {
+	public static Boolean validateHallBooking(ArrayList<HallBooking> bookingList,HallBooking booking) throws Exception{
+		//fill your code here
+//		boolean a=false;
+//		for (HallBooking hall : bookingList) {
+//			if (hall.getHall().getName().equals(booking.getHall().getName()))
+//					if(hall.getEventDate().equals(booking.getEventDate())) {
+//						return a=true;
+//			}
+//		}
+//		return a;
+		try {
+			for (HallBooking hall : bookingList) {
+				if (hall.getHall().getName().equals(booking.getHall().getName()) && hall.getEventDate().equals(booking.getEventDate()))
+						return hall.toString() + ex.notexist()
+			}
+		} catch(Exception e) {
+			System.out.println(hb.toString() + ex.notexist());
+			hallBookingList.remove(h);
+		}
+	}
+}

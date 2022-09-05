@@ -1,0 +1,10 @@
+import java.sql.Connection;
+
+public class UserDAO {
+	public User getUser(String username) {
+		User user = null;
+		//write your code here
+		Connection con = DBConnection.getConnection();
+		return user;
+	}
+}

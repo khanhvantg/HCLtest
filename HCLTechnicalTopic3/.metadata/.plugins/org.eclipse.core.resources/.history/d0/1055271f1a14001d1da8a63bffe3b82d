@@ -1,0 +1,24 @@
+import java.io.*; 
+import java.util.*; 
+public class Main{ 
+	public static void main (String[] args) throws Exception{ 
+
+		//Fill your code		
+		String first, second;
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the first string : ");
+		first = s.nextLine();
+		System.out.println("Enter the second string : ");
+		second = s.nextLine();
+		
+		System.out.println("Substring:"first.substring(3)); 
+		
+	}
+
+	public String Tach(String string) {
+		String subString=split(" ");
+	}
+} 
+
+
+

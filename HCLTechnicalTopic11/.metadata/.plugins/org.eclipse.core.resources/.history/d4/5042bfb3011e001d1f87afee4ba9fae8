@@ -1,0 +1,22 @@
+import java.io.BufferedReader;
+import java.util.ArrayList;
+import java.util.List;
+
+class FileUtility{
+    List<Client> readFileData(BufferedReader br){
+		List<Client> clientList = new ArrayList<>();
+		
+		//Fill your code here
+		
+		return clientList;
+	}
+	
+	void writeDataToFile(List<Client> clientList){
+		
+                //Fill your code here
+
+	}
+
+	
+}
+	

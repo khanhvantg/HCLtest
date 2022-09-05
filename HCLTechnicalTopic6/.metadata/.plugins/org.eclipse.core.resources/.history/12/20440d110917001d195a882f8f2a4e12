@@ -1,0 +1,8 @@
+interface Notification{
+
+     //Fill your code
+	abvoid notificationBySms( );
+	void notificationByEmail( );
+	void notificationByCourier( );
+	
+}

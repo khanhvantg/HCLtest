@@ -1,0 +1,7 @@
+public class HallBooking {
+	//Your code here
+	private String hallName;
+	private Double cost;
+	 private Integer hallCapacity;
+	 private Integer seatsBooked;
+}

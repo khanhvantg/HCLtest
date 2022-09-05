@@ -1,0 +1,15 @@
+import java.util.Date;
+
+public class Person{
+
+        //    Fill your code
+       public String name;
+       public Date dateOfBirth;
+       public String gender;
+       public String mobileNumber;
+       public String bloodBankName;
+       
+       
+    }
+
+

@@ -1,0 +1,34 @@
+import java.io.BufferedReader;
+import java.util.*;
+public class EventBO {
+
+	public static ArrayList<Event> readFile(BufferedReader br) throws Exception {
+		ArrayList<Event> ArrayList1 = new ArrayList<>();
+		//write your code here
+		Event event;
+		String line;
+		while ((line = br.readLine()) != null) {
+			String name = line.substring(0, 19).trim();
+			String detail = line.substring(19, 39).trim();
+			String type = line.substring(39, 51).trim();
+			String organiser = line.substring(51, 61).trim();
+			String attendeesCont = line.substring(61, 67).trim();
+			String projectedExpense = line.substring(67, 74).trim();
+			event = new Event(name, detail, type, organiser, Integer.parseInt(attendeesCont),
+					Double.parseDouble(projectedExpense));
+		}
+		br.close();
+		return ArrayList1;
+	}
+
+		public static ArrayList<Event> eventsByPerson(ArrayList<Event> eventList,String organizer) {
+			ArrayList<Event> ArrayList2 = new ArrayList<>();
+			//write your code here
+			for(int i=0;i<eventList.size();i++) {
+				if(eventList.get(i).getOrganiser().equals(organizer)) {
+					ArrayList2.add(eventList.get(i));
+				}
+			}
+			return ArrayList2;
+		}
+	}

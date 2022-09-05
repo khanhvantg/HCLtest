@@ -1,0 +1,17 @@
+import java.io.*; 
+import java.util.*; 
+public class Main{ 
+	public static void main (String[] args) throws Exception{ 
+
+		//Fill your code		
+		int n;
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter n: ");
+		n=s.nextInt();
+		
+		int[] a
+	} 
+} 
+
+
+

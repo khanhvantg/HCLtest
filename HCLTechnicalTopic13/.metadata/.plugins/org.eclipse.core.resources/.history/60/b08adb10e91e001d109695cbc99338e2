@@ -1,0 +1,8 @@
+public class UserDAO {
+	public User getUser(String username) {
+		User user = null;
+		//write your code here
+		Connection con = DBConnection().getConnet
+		return user;
+	}
+}

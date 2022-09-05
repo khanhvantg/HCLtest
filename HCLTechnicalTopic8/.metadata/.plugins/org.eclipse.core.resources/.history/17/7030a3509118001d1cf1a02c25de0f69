@@ -1,0 +1,25 @@
+import java.util.List;
+
+public class ComputeStatus implements Runnable {
+    List<Event> eventList;
+    
+    public List<Event> getEventList() {
+    	 return eventList;
+    	 }
+    
+    public ComputeStatus() {
+    	super();
+	}
+	
+	public ComputeStatus(List<Event> eventList) {
+		super();
+		this.eventList = eventList;
+	}
+
+	@Override
+	public void run() {
+	    
+        //fill your code here
+        
+	}
+}

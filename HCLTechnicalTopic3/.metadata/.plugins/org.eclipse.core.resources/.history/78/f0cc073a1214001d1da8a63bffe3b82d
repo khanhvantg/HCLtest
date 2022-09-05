@@ -1,0 +1,44 @@
+public class Rectangle {
+    		
+	//Fill your code
+	
+	private int a,b;
+	
+	public int getA() {
+		return a;
+	}
+	public void setA(int a) {
+		this.a = a;
+	}
+	public int getB() {
+		return b;
+	}
+	public void setB(int b) {
+		this.b = b;
+	}
+	
+	
+	public Integer area() {		
+		//Fill your code
+		return a*b;	
+
+	}
+	public void display(){
+		//Fill your code
+		System.out.println("Rectangle Dimension");
+		System.out.println("Length:"+a);
+		System.out.println("Width:"+b);
+		System.out.println("Area of the Rectangle:"+area());
+	}
+	
+	Rectangle dimensionChange(Integer newDimension){
+
+		Rectangle rectangleObject = null;
+		//Fill your code	
+		a=a*2;
+		b=b*2;
+		return rectangleObject;
+	}
+	
+
+}

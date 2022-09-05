@@ -1,0 +1,35 @@
+import java.util.Date;
+
+public class Staff extends Person{
+
+	public Staff(String name, Date dateOfBirth, String gender, String mobileNumber, String bloodBankName) {
+		super(name, dateOfBirth, gender, mobileNumber, bloodBankName);
+		// TODO Auto-generated constructor stub
+	}
+	public String employeeID;
+	public Integer designation;
+	public String getEmployeeID() {
+		return employeeID;
+	}
+	public void setEmployeeID(String employeeID) {
+		this.employeeID = employeeID;
+	}
+	public Integer getDesignation() {
+		return designation;
+	}
+	public void setDesignation(Integer designation) {
+		this.designation = designation;
+	}
+	public Staff(String name, Date dateOfBirth, String gender, String mobileNumber, String bloodBankName,
+			String employeeID, Integer designation) {
+		super(name, dateOfBirth, gender, mobileNumber, bloodBankName);
+		this.employeeID = employeeID;
+		this.designation = designation;
+	}
+	
+	public void displayDetails() {
+		System.out.println("Donor Type: "+donorType);
+		System.out.println("Blood Group: "+bloodGroup);
+		System.out.println("Donation Date: "+donationDate);
+	}
+}

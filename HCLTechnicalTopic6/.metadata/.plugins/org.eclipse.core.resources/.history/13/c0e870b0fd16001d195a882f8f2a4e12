@@ -1,0 +1,8 @@
+class Account {
+	//fill the code
+	private String name, accountNumber;
+	private double balance;
+	private Date startDate;
+}
+
+

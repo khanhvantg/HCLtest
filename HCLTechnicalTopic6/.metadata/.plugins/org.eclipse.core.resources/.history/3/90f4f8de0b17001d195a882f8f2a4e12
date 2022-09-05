@@ -1,0 +1,54 @@
+public class Shape {
+
+        //fill your code here
+	public static Double value1, value2;
+	
+	
+	
+
+	public static class Rectangle {
+	    //fill your code here
+		Shape s=new Shape();
+		public static Double getValue1() {
+			return value1;
+		}
+
+		public static void setValue1(Double value1) {
+			Shape.value1 = value1;
+		}
+
+		public static Double getValue2() {
+			return value2;
+		}
+
+		public static void setValue2(Double value2) {
+			Shape.value2 = value2;
+		}
+		public Double computeRectangleArea() {
+			return s.getValue1()*s.getValue2();
+		}
+	}
+	
+	public static class Triangle {
+	    //fill your code here
+		Shape s=new Shape();
+		public static Double getValue1() {
+			return value1;
+		}
+
+		public static void setValue1(Double value1) {
+			Shape.value1 = value1;
+		}
+
+		public static Double getValue2() {
+			return value2;
+		}
+
+		public static void setValue2(Double value2) {
+			Shape.value2 = value2;
+		}
+		public Double computeTriangleArea() {
+			return (1/2)*s.getValue1()*s.getValue2();
+		}
+	}	
+}

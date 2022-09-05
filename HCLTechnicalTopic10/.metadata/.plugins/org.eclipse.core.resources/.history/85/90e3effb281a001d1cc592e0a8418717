@@ -1,0 +1,23 @@
+import java.io.IOException;
+
+public class Main {
+	public static void main(String[] args) throws IOException {
+		// fill your code here
+		Scanner sc = new Scanner(System.in);
+
+		Item<Integer> integerItem = new Item<Integer>();
+		Item<String> stringItem = new Item<String>();
+
+		System.out.println("Enter a integer :");
+
+		integerItem.set(sc.nextInt());
+		sc.nextLine();
+
+		System.out.println("Enter a string :");
+		stringItem.set(sc.nextLine());
+
+		System.out.println("Integer Value :" + integerItem.get());
+
+		System.out.println("String Value :" + stringItem.get());
+	}
+}

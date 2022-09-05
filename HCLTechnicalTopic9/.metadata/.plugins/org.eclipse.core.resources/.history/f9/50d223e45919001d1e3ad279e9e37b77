@@ -1,0 +1,22 @@
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n;
+		System.out.println("Enter an integer");
+		n = sc.nextInt();
+		System.out.println("The binary equivalent of "+n+" is "+ Integer.toBinaryString(n));
+		System.out.println("The hexadecimal equivalent of "+n+" is "+ Integer.toHexString(n));
+		System.out.println("The octal equivalent of "+n+" is "+ Integer.toOctalString(n));
+		byte b = (byte) n;
+		Short s = (short) n;
+		long l = n;
+		Float f = (float) num;
+		Double d = (double) num;
+		System.out.println("Byte value of "+num+" is "+b);
+		System.out.println("Short value of "+num+" is "+s);
+		System.out.println("Long value of "+num+" is "+l);
+		System.out.println("Float value of "+num+" is "+f);
+		System.out.println("Double value of "+num+" is "+d);
+	}
+}

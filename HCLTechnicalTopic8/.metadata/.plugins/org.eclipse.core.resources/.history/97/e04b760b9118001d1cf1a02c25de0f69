@@ -1,0 +1,17 @@
+public class HallBooking {
+	//Your code here
+	private String hallName;
+	private Double cost;
+	private Integer hallCapacity;
+	private Integer seatsBooked;
+	
+	public HallBooking(String hallName, Double cost, Integer hallCapacity, Integer seatsBooked) {
+		this.hallName = hallName;
+		this.cost = cost;
+		this.hallCapacity = hallCapacity;
+		this.seatsBooked = seatsBooked;
+	}
+	
+	
+	
+}

@@ -1,0 +1,18 @@
+import java.util.*;
+public class UserDAO {
+	public void updateUser(User user){
+		//your code goes here...
+	}
+	
+	public User findUserByUsername(String username){
+		User user = new User();
+		//your code goes here...
+		return user;
+	}
+	
+	public List<User> getAllUsers(){
+		List<User> userList =new ArrayList<>();
+		//your code goes here...
+		return userList;
+	}
+}

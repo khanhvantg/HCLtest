@@ -1,0 +1,8 @@
+public class CurrentAccount implements MaintenanceCharge  {
+	//fill the code
+	public float calculateMaintanceCharge(float noOfYears) {
+        
+    }
+}
+
+

@@ -1,0 +1,3 @@
+public class BillHeader {
+	// fill your code here
+}

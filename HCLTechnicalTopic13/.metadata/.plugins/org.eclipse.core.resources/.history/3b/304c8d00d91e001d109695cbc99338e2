@@ -1,0 +1,11 @@
+import java.util.*;
+public class ItemTypeDAO {
+	public List<ItemType> getAllItemTypes() {
+		List<ItemType> itemTypeList = new ArrayList<>();
+		//your code goes here...
+		for(ItemType item : itemTypeList) {
+			
+		}
+		return itemTypeList;
+	}
+}

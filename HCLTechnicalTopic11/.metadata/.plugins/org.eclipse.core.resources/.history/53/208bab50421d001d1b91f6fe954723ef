@@ -1,0 +1,10 @@
+public class Event {
+	//write your code here
+	private String name;
+	String detail;
+	String type;
+	String organiser;
+	int attendeesCont;
+	double projectedExpense;
+
+}

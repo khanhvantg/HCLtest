@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\HCLTechnicalTopic7\HallNotAvailableException"/>
+		<item value="D:\HCLTechnicalTopic7\Duplicate mobile number exception"/>
+		<item value="D:\HCLTechnicalTopic7\SeatNotAvailableException"/>
+		<item value="D:\HCLTechnicalTopic7\Parse Exception"/>
+		<item value="D:\HCLTechnicalTopic7\ArrayIndexOutOfBoundsException"/>
+		<item value="D:\HCLTechnicalTopic7\Arithmetic Exception"/>
+	</list>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+</section>

@@ -1,0 +1,19 @@
+
+import java.util.*;
+import java.io.*;
+
+
+public class ItemTypeBO {
+     public List<ItemType> readFromFile(BufferedReader br) throws Exception{
+         List<ItemType> ItemType1 = new ArrayList<ItemType>();
+         //write your code here
+           return ItemType1;
+           
+      } 
+      public List<ItemType> depositList(List<ItemType> list) {
+          List<ItemType> ItemType2 = new ArrayList<ItemType>();
+          //write your code here
+          return ItemType2;
+          
+      }
+      

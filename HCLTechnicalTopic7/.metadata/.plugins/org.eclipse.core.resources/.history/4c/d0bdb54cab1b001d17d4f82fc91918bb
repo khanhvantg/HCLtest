@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+public class HallBookingBO {
+	public static Boolean validateHallBooking(ArrayList<HallBooking> bookingList,HallBooking booking) throws Exception{
+		//fill your code here
+		
+	}
+	public String toString(){
+		return "% -15s% -15s% -15s% -15s" + "Hall name" + "Event name" + "Event date" + "Price"           \n" + 
+				"TUV hall       Book Fair      01-02-1018     10000.0        \n" + 
+				"Sdf hall       Furniture Fair 01-02-1018     10000.0   ";
+	}
+}

@@ -1,0 +1,15 @@
+public class Customer{
+	//Fill your code
+	
+	private String nam
+	
+	public void displayDetails(){
+
+			//Fill your code
+		System.out.println("Name: ");
+		System.out.println("E-mail: ");
+		System.out.println("Type: ");
+		System.out.println("Location: ");
+	}
+	
+}

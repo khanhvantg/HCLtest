@@ -1,0 +1,15 @@
+public class Main {
+	public static void main(String []args){
+		//fill your code here
+		Scanner sn = new Scanner(System.in);
+		System.out.println("Enter the generated hall booking id to validate: ");
+		String input = sn.nextLine();
+		String regex = "[0-9]+";
+		
+		if (input.matches(regex)) {
+			System.out.println("Valid Booking ID");
+		}else{
+			System.out.println("Invalid Booking ID");
+		}
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+public class HallBookingBO {
+	public static Boolean validateHallBooking(ArrayList<HallBooking> bookingList,HallBooking booking) throws Exception{
+		//fill your code here
+		boolean checkEventName=false;
+		for (HallBooking hall : bookingList) {
+			if (hall.getEvent().getName().equals(booking.getEvent().getName()))
+				checkEventName=true;
+		}
+		for (HallBooking hall : bookingList) {
+			if ( (hall.getHall().getName().equals(booking.getHall().getName())) && (hall.getEventDate().equals(booking.getEventDate()) && checkEventName==false) ) {
+				return true;
+			}
+		}
+		return false;
+	}
+}

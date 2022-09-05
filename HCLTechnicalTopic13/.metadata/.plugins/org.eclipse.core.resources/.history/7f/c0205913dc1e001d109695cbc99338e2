@@ -1,0 +1,7 @@
+public class Main {
+	public static void main(String args[]){
+		//your code goes here...
+		UserDAO dao = new UserDAO();
+		List<User> userList = dâ
+	}
+}

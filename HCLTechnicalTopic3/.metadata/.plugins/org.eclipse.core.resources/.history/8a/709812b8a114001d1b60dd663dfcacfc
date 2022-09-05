@@ -1,0 +1,13 @@
+class A
+{
+    private String data="private modifiers";
+}
+
+public class Fee
+{
+    public static void main(String args[])
+    {
+        A ins=new A();
+        System.out.println(ins);
+    }
+}

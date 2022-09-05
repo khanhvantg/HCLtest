@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){    	     
+           //Fill your code
+    	String str;
+		Scanner s = new Scanner(System.in);
+		//System.out.println("Enter the first string : ");
+		str = s.nextLine();
+		String[] string=str.split(" ");
+		System.out.println("Arguments:");
+//		for(String st: string) {
+//			System.out.println(st);
+//		}	
+		System.out.println("The number of arguments is "+string.length);
+    }
+}

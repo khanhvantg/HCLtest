@@ -1,0 +1,38 @@
+import java.util.Iterator;
+import java.util.List;
+
+public class ComputeStatus implements Runnable {
+    List<Event> eventList;
+    
+    public List<Event> getEventList() {
+    	 return eventList;
+    	 }
+    
+    public ComputeStatus() {
+    	super();
+	}
+	
+	public ComputeStatus(List<Event> eventList) {
+		super();
+		this.eventList = eventList;
+	}
+
+	@Override
+	public void run() {
+        //fill your code here
+		Iterator iterator = eventList.iterator();
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		while (iterator.hasNext()) {
+			Event e = (Event) iterator.next();
+			if (e.getHallBooking().getSeatsBooked() * 100 / e.getHallBooking().getHallCapacity() >= 60) {
+				System.out.println(e.getName() + " yields profit");
+			} else {
+				System.out.println(e.getName() + " yields loss");
+			}
+		}
+	}
+}

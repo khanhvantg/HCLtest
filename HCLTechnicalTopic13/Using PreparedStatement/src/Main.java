@@ -1,0 +1,23 @@
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String args[]) throws ClassNotFoundException, SQLException{
+		//your code goes here...
+		UserDAO dao = new UserDAO();
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the user detail in CSV format");
+		String detail = sc.nextLine();
+		String[] splits = detail.split(",");
+		User user = new User(splits[0],splits[1],splits[2],splits[3]);
+		
+		dao.insertDetails(user);
+		List<User> userList = dao.getAllUser();
+		System.out.format("%-5s %-10s %-15s %-10s %s\n","Id","Name","Contact Detail","Username","Password");
+		for (User u : userList) {
+			System.out.format("%-5s %-10s %-15s %-10s %s\n",u.getId(),u.getName(),u.getContactDetail(),u.getUsername(), u.getPassword());
+		}
+	}
+}

@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String args[]) {
+		//write your code here
+		boolean result=false;
+		List<String> list = new ArrayList<String>();
+		String name;
+		String aws;
+		Scanner sc = new Scanner(System.in);
+		int i=1;
+		while(result) {
+			System.out.println("Enter the username " + i++);
+			name = sc.nextLine();
+			list.add(name);
+			System.out.println("Do you want to continue?(y/n)");
+			aws = sc.nextLine();
+			result=aws.equals("y");
+		}
+		
+		System.out.println("The Names entered are:");
+		for(String s:list){
+			System.out.println(s);
+		}
+	}
+}

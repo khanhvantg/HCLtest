@@ -1,0 +1,22 @@
+import java.io.*; 
+import java.util.*; 
+public class Main{ 
+	public static void main (String[] args) throws Exception{ 
+
+		//Fill your code		
+		String first, second;
+		Scanner s = new Scanner(System.in);
+		
+		first = ";
+		System.out.println("Enter the second string : ");
+		second = s.nextLine();
+		System.out.println("Substring:"+first.substring(3)); 
+		System.out.println("The character at 3rd position in the second string is : " + second.charAt(3));
+		boolean result = first.equalsIgnoreCase(second);
+		System.out.println("Are string 1 and string 2 equal? : " + result);
+		System.out.println("Concatenated string : " + first+second );
+	} 
+} 
+
+
+

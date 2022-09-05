@@ -1,0 +1,45 @@
+
+import java.util.*;
+import java.io.*;
+
+
+public class ItemTypeBO {
+	public List<ItemType> readFromFile(BufferedReader br) throws Exception{
+		List<ItemType> ItemType1 = new ArrayList<ItemType>();
+		//write your code here
+		ItemType it;
+		try {
+			String line;
+			while ((line = br.readLine()) != null) {
+				String sp[] = line.split("\\s+");
+				it = new ItemType(sp[0], Double.parseDouble(sp[1]), Double.parseDouble(sp[2]));
+				ItemType1.add(it);
+			}
+			String sp[] = line.split("\\s+");
+			it = new ItemType(sp[0], Double.parseDouble(sp[1]), Double.parseDouble(sp[2]));
+			ItemType1.add(it);
+			br.close();
+		} catch (IOException ex) {
+			ex.printStackTrace();
+		}
+		return ItemType1;
+
+	} 
+	public List<ItemType> depositList(List<ItemType> list) {
+		List<ItemType> ItemType2 = new ArrayList<ItemType>();
+		//write your code here
+		for(int i =0;i<list.size();i++) {
+			if(list.get(i).getDeposit()>2000) {
+				ItemType2.add(list.get(i));
+			}
+		}
+		return ItemType2;
+
+	}
+	public void display(List<ItemType> list) {
+		for(int i=0;i<list.size();i++)
+		{
+			System.out.printf("%-15s %-15s %s\n",list.get(i).getName(),list.get(i).getDeposit(),list.get(i).getCostPerDay());
+		}
+	}
+}

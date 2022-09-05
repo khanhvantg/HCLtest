@@ -1,0 +1,11 @@
+public class Main {
+	public static void main(String[] args)  {
+		//your code goes here...
+		ItemTypeDAO d = new ItemTypeDAO();
+		List<ItemType> e = d.getAllItemTypes();
+		System.out.format("%-5s %-15s %-10s %s\n","ID","Name","Deposit","Cost per day");
+		for (ItemType j: e) {
+			System.out.format("%-5s %-15s %-10s %s\n",j.getId(),j.getName(),j.getDeposit(),j.getCostPerDay());
+		}
+	}
+}

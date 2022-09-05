@@ -1,0 +1,10 @@
+package test;
+
+public class test {
+	public static void main(String args[]) {
+		String a="Van";
+		if (a.equals(" Van")){
+			System.out.println("True");
+		}
+	}
+}

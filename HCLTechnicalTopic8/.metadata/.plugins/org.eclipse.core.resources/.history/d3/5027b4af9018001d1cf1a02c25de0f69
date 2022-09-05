@@ -1,0 +1,6 @@
+public class Event {
+	//Your code here
+	private String name;
+	private HallBooking hallBooking;
+	
+}

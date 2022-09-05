@@ -1,0 +1,18 @@
+import java.io.*; 
+import java.util.*; 
+public class Main{ 
+	public static void main (String[] args) throws Exception{ 
+
+		//Fill your code		
+		String first, second;
+		Scanner s = new Scanner(System.in);
+		
+		first = s.nextLine();
+		second = " - Command Line Arguments";
+		
+		System.out.println("Concatenated string : " + first+second );
+	} 
+} 
+
+
+

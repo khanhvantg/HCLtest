@@ -1,0 +1,11 @@
+package test;
+
+public class test {
+	public static void main(String args[]) {
+		String a="A, Van";
+		String[] splits = a.split(",");
+		if ("Van".equals(splits[1].trim())){
+			System.out.println("True");
+		}
+	}
+}

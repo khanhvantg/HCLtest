@@ -1,0 +1,4 @@
+//create interface
+interface MaintenanceCharge {
+	Float calculateMaintanceCrge(Float noOfYears);
+}

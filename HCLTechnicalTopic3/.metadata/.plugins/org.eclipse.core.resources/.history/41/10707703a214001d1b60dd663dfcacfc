@@ -1,0 +1,16 @@
+class Fee {
+    final int a = 15;
+}
+
+class B extends Fee {
+    final int a = 20;
+}
+
+class C extends B {
+    final int a = 30;
+
+    static void main(String args[]) {
+        C c = new C();
+        System.out.print(c.a);
+    }
+}

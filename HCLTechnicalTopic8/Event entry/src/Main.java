@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) throws Exception {
+		//Your code here
+		Scanner sc = new Scanner(System.in);	
+		System.out.println("Enter the number of Entry/Exit sensors: "); 
+		int n = sc.nextInt();
+		sc.nextLine();
+		System.out.println("Enter the sensor readings");
+		String[] input = new String[n]; 
+		for (int i = 0; i < n; i++) {
+			input[i] = sc.nextLine();
+		}
+		String s = String.join(" ", input);
+		Event e = new Event(s);
+		e.run();
+	}
+}

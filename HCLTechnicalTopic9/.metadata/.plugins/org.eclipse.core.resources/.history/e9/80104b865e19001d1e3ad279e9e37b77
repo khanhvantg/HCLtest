@@ -1,0 +1,10 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+		// fill your code here
+    	Scanner sc = new Scanner("Enter the string");
+    	String str = sc.nextLine();
+	}
+}

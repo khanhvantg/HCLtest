@@ -1,0 +1,18 @@
+class A
+{
+    private int input=100;
+    private void msg()
+    {
+    System.out.println("Access modifiers");
+    }
+}
+
+public class Fee
+{
+    public static void main(String args[])
+    {
+        A obj=new A();
+        System.out.println(A.input);
+        obj.msg();
+    }
+}

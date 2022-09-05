@@ -1,0 +1,6 @@
+public class GoldStall{
+	//fill your code here
+	private String stallName, ownerName;
+	private Integer cost,tvSet;
+}
+

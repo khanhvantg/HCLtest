@@ -1,0 +1,5 @@
+public class PremiumStall{
+	//fill your code here
+	private String stallName, ownerName;
+	private 
+}

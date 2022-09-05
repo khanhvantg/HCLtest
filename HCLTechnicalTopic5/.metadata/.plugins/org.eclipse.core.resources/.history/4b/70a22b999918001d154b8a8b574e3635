@@ -1,0 +1,63 @@
+import java.util.Date;
+
+public class Person{
+
+        //    Fill your code
+       	public String name;
+       	public Date dateOfBirth;
+       	public String gender;
+       	public String mobileNumber;
+       	public String bloodBankName;
+       	
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public Date getDateOfBirth() {
+			return dateOfBirth;
+		}
+		public void setDateOfBirth(Date dateOfBirth) {
+			this.dateOfBirth = dateOfBirth;
+		}
+		public String getGender() {
+			return gender;
+		}
+		public void setGender(String gender) {
+			this.gender = gender;
+		}
+		public String getMobileNumber() {
+			return mobileNumber;
+		}
+		public void setMobileNumber(String mobileNumber) {
+			this.mobileNumber = mobileNumber;
+		}
+		public String getBloodBankName() {
+			return bloodBankName;
+		}
+		public void setBloodBankName(String bloodBankName) {
+			this.bloodBankName = bloodBankName;
+		}
+		public Person(String name, Date dateOfBirth, String gender, String mobileNumber, String bloodBankName) {
+			this.name = name;
+			this.dateOfBirth = dateOfBirth;
+			this.gender = gender;
+			this.mobileNumber = mobileNumber;
+			this.bloodBankName = bloodBankName;
+		}
+		
+		public void displayDetails() {
+			System.out.printlnName: Joe
+			Date Of Birth: 11-07-1998
+			Gender: Male
+			Mobile Number: 9898944144
+			Blood BankName: BloodCenter
+			Donor Type: Directed
+			Blood Group: O+ve
+			Donation Date: 21-03-2016
+		}
+		
+}
+
+

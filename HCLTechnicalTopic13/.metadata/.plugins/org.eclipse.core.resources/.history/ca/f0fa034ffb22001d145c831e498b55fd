@@ -1,0 +1,13 @@
+import java.util.*;
+public class UserDAO {
+	public List<User> getAllUser() {
+		List<User> userList =new ArrayList<>();
+		//write your code here
+		return userList;
+	}
+	
+	public Boolean deleteUser(String username) {
+		//write your code here
+		return false;
+	}
+}

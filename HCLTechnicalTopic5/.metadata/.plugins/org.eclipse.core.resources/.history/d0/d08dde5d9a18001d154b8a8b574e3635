@@ -1,0 +1,35 @@
+public class Donor extends Person {
+   //fill your code
+	public String donorType,bloodGroup,donationDate;
+	
+	public String getDonorType() {
+		return donorType;
+	}
+
+	public void setDonorType(String donorType) {
+		this.donorType = donorType;
+	}
+
+	public String getBloodGroup() {
+		return bloodGroup;
+	}
+
+	public void setBloodGroup(String bloodGroup) {
+		this.bloodGroup = bloodGroup;
+	}
+
+	public String getDonationDate() {
+		return donationDate;
+	}
+
+	public void setDonationDate(String donationDate) {
+		this.donationDate = donationDate;
+	}
+
+	public void displayDetails() {
+//		System.out.println("Donor Type: Directed
+//		System.out.println("Blood Group: O+ve
+//		System.out.println("Donation Date: 21-03-2016
+	}
+}
+

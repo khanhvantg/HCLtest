@@ -1,0 +1,6 @@
+public class GoldStall{
+	//fill your code here
+	private String cost, tvSet;
+	
+}
+

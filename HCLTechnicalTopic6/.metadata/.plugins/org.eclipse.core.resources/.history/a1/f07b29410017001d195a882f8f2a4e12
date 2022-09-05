@@ -1,0 +1,5 @@
+class SavingsAccount implements MaintenanceCharge  {
+	//fill the code
+}
+
+

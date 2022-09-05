@@ -1,0 +1,11 @@
+public class Event {
+	//Your code here
+	private String name;
+	private HallBooking hallBooking;
+	public Event(String name, HallBooking hallBooking) {
+		this.name = name;
+		this.hallBooking = hallBooking;
+	}
+	
+	
+}

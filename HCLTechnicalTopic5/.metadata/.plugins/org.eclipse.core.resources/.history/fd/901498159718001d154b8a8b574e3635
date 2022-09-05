@@ -1,0 +1,15 @@
+
+public class StageEvent {
+    
+    //Fill your code here
+
+
+    Double calculateAmount() {
+
+        //Fill your code here
+
+        return 0.0;
+
+    }  
+	
+}

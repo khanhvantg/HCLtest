@@ -1,0 +1,39 @@
+import java.io.*;
+import java.util.Scanner;
+
+class Main{
+	public static void main(String[] args) throws Exception{ 		
+		
+		//Fill your code
+		Scanner s = new Scanner(System.in);
+		String nameOne, usernameOne, passwordOne, nameTwo, usernameTwo, passwordTwo;
+		long phoneNumberOne, phoneNumberTwo;
+		
+		User userOne = new User();
+		
+		System.out.println("Enter Name");
+		nameOne=s.nextLine();
+		System.out.println("Enter UserName");
+		usernameOne=s.nextLine();
+		System.out.println("Enter Password");
+		passwordOne=s.nextLine();
+		System.out.println("Enter PhoneNumber");
+		phoneNumberOne=s.nextLong();
+		
+		
+		System.out.println("Enter Name");
+		nameTwo=s.nextLine();
+		System.out.println("Enter UserName");
+		usernameTwo=s.nextLine();
+		System.out.println("Enter Password");
+		passwordTwo=s.nextLine();
+		System.out.println("Enter PhoneNumber");
+		phoneNumberTwo=s.nextLong();
+		User userTwo = new User();
+		boolean flag=userOne.comparePhoneNumber(userTwo);
+		if(flag==true)
+			System.out.println("Same Users");
+		else System.out.println("Different Users");
+		
+	}
+}

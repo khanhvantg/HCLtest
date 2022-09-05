@@ -1,0 +1,17 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+		//Fill your code here
+    	BufferedReader br = new BufferedReader(new FileReader("input.txt"));
+    	FileUtility fileUtility = new FileUtility();
+    	
+    	v
+    	
+    	List<Client> clientList = fileUtility.readFileData(br);
+    	fileUtility.writeDataToFile(clientList);
+	}
+
+}

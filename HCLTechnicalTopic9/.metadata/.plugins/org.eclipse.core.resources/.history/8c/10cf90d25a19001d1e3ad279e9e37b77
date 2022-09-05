@@ -1,0 +1,9 @@
+import java.sql.Date;
+
+public class BillHeader {
+	// fill your code here
+	private Date issueDate, dueDate;
+	private double originalAmount, amountOutstanding;
+	
+	
+}

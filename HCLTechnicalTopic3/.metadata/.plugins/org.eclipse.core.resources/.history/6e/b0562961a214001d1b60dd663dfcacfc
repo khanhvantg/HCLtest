@@ -1,0 +1,15 @@
+1.class A {
+2.    A(Integer a){}
+3.
+4.    A(){}
+5.}
+6.
+7.class B extends A {
+8.    B(){}
+9.    B(Integer a) {
+10.      super(a);
+11.   }
+12.   void test(){
+13.      // insert code here
+14.   }
+15. }

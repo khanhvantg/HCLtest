@@ -1,0 +1,20 @@
+public class Fee
+{
+int id;
+double amtPaid;
+void pay(float id, double amt){
+this.id=id;
+this.amtPaid=amt;
+}
+void pay(double id, float amt){
+System.out.println("A A");
+this.id=id;
+this.amtPaid=amt;
+}
+
+public static void main(String[] args)
+{
+Fee fee=new Fee();
+fee.pay(123,440);
+}
+}

@@ -1,0 +1,13 @@
+
+import java.util.ArrayList;
+import java.util.List;
+public class UserDAO {
+    public List<User> getAllUser() {
+        List<User> userList = new ArrayList<User>();
+        //fill your code here
+        return userList;
+    }
+    public void insertDetails(User user) {
+        //fill your code here
+    }
+}

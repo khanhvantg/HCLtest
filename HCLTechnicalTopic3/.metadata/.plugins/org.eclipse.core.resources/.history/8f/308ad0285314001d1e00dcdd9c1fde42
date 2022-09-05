@@ -1,0 +1,13 @@
+public class Customer{
+	//Fill your code
+	
+	public void displayDetails(){
+
+			//Fill your code
+		System.out.println("Name: ");
+		System.out.println("Name: ");
+		System.out.println("Name: ");
+		System.out.println("Name: ");
+	}
+	
+}

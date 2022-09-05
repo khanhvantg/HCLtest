@@ -1,0 +1,8 @@
+public class BankFactory {
+	
+     //	Fill your code
+	public Icici getIcici() {
+		
+	}
+	public Hdfc getHdfc()
+}

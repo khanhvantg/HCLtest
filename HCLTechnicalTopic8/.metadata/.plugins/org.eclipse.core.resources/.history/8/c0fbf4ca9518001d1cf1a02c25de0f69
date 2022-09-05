@@ -1,0 +1,14 @@
+
+public class PrimeNumber   {
+	Integer number;
+	
+	public PrimeNumber() { }
+    
+    public PrimeNumber(Integer number) {
+        this.number = number;
+    }
+    
+	public void run() {
+		//Fill your code here
+    }
+}

@@ -1,0 +1,21 @@
+import java.util.List;
+
+public class ComputeStatus {
+    List<Event> eventList;
+    
+    public ComputeStatus() {
+    	super();
+	}
+	
+	public ComputeStatus(List<Event> eventList) {
+		super();
+		this.eventList = eventList;
+	}
+
+	@Override
+	public void run() {
+	    
+        //fill your code here
+        
+	}
+}

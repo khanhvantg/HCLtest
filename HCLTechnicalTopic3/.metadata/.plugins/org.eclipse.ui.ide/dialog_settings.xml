@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\HCLTechnicalTopic3\Command Line Argument - Print String"/>
+		<item value="D:\HCLTechnicalTopic3\String Methods - Basic"/>
+		<item value="D:\HCLTechnicalTopic3\Sum of an array"/>
+		<item value="D:\HCLTechnicalTopic3\Customer Class With Constructor"/>
+		<item value="D:\HCLTechnicalTopic3\Command Line Argument - Count"/>
+		<item value="D:\HCLTechnicalTopic3\Array - for each loop"/>
+		<item value="D:\HCLTechnicalTopic3\String Methods - Java"/>
+		<item value="D:\HCLTechnicalTopic3\Rectangle Dimension Change - instanceof operator"/>
+		<item value="D:\HCLTechnicalTopic3\Compare Phone number - Java"/>
+		<item value="D:\HCLTechnicalTopic3\Display Item Type"/>
+		<item value="D:\HCLTechnicalTopic3"/>
+	</list>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+</section>

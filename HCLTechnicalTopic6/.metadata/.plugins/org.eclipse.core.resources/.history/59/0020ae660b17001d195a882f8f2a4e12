@@ -1,0 +1,22 @@
+public class Shape {
+
+        //fill your code here
+	public static Double value1, value2;
+	
+	
+	public static class Rectangle {
+	    //fill your code here
+		Shape s=new Shape();
+		public Double computeRectangleArea() {
+			return s.value1*value2;
+		}
+	}
+	
+	public static class Triangle {
+	    //fill your code here
+		Shape s=new Shape();
+		public Double computeTriangleArea() {
+			return (1/2)*value1*value2;
+		}
+	}	
+}

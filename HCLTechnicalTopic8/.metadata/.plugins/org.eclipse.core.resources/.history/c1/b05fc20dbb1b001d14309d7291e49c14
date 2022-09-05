@@ -1,0 +1,8 @@
+public class EventBO {
+	//Your code here
+	static int currentPeopleCount;
+	
+	public static void processEvent(String enterType) {
+		
+	}
+}

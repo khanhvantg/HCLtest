@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception{
+		//Your code here
+		BufferedReader br = new BufferedReader(new FileReader("input.txt"));
+		ItemTypeBO it = new ItemTypeBO();
+		List<ItemType> itList = it.readFromFile(br);
+		List<ItemType> itList1 = it.depositList(itList);
+		if(itList1.isEmpty())
+		{
+			System.out.println("No item type has deposit more than 2000");
+		}
+		else 
+		{
+			it.display(itList1);
+		}
+
+	}
+
+}

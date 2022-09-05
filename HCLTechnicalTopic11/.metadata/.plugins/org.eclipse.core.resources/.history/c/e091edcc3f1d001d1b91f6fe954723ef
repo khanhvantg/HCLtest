@@ -1,0 +1,10 @@
+import java.util.*;
+import java.io.*;
+public class UserBO {
+    public static void writeFile(ArrayList<User> userList, BufferedWriter bw) throws Exception {
+        //Fill your code here
+    	for(User user: userList) {
+    		
+    	}
+    }
+}

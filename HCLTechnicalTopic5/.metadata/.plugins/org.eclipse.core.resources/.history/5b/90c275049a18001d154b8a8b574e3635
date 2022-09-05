@@ -1,0 +1,11 @@
+public class Donor {
+   //fill your code
+	public String 
+	
+	public void displayDetails() {
+//		System.out.println("Donor Type: Directed
+//		System.out.println("Blood Group: O+ve
+//		System.out.println("Donation Date: 21-03-2016
+	}
+}
+

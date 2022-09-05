@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String args[]) {
+		//write your code here
+		boolean result;
+		List<String> list = new ArrayList<String>();
+		String name;
+		Scanner sc = new Scanner(System.in);
+		
+		while(result) {
+			System.out.println("Enter the username " + i++);
+			name = sc.nextLine();
+			list.add(name);
+			System.out.println("Do you want to continue?(y/n)");
+			String diss = scanner.nextLine();
+			result=diss.equals("y");
+		}
+		
+	}
+}
